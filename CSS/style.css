@@ -1,0 +1,27 @@
+footer{
+    text-align: center;
+    padding: 20px;
+    max-height: 10%;
+    background-color: #0A316C ;
+}
+
+footer, .footer-lien{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 30%;
+    padding-right: 30%;
+    
+}
+
+.footer-list > li{
+    display: inline-block;
+}
+
+.credits{
+    text-align: center;
+}
