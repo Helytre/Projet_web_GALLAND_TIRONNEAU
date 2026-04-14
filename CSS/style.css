@@ -1,36 +1,6 @@
 html{
     font-family: 'Montserrat','Poppins', sans-serif;
 }
-
-
-footer{
-    text-align: center;
-    padding: 20px;
-    max-height: 10%;
-    background-color: #0A316C ;
-    font-size: 20px;
-}
-
-footer, .footer-lien{
-    color: white;
-    text-decoration: none;
-}
-
-.footer-list{
-    justify-content: space-between;
-    display: flex;
-    padding-left: 30%;
-    padding-right: 30%;
-    
-}
-
-.footer-list > li{
-    display: inline-block;
-}
-
-.credits{
-    text-align: center;
-}
 :root{
     --bleu_aca: rgb(10, 49, 108);
     --bleu_logo: rgb(19, 123, 190);
@@ -69,4 +39,33 @@ header{
 #nav_bar{
     background-color: var(--bleu_aca);
     font-size: 15px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    max-height: 10%;
+    background-color: #0A316C ;
+    font-size: 20px;
+}
+
+footer, .footer-lien{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 30%;
+    padding-right: 30%;
+    
+}
+
+.footer-list > li{
+    display: inline-block;
+}
+
+.credits{
+    text-align: center;
 }
