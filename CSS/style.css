@@ -1,0 +1,39 @@
+:root{
+    --bleu_aca: rgb(10, 49, 108);
+    --bleu_logo: rgb(19, 123, 190);
+    --cyan_tech: rgb(129,236,236);
+    --blanc_pur:rgb(255,255,255);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: var(--blanc_pur);
+}
+
+.box_header{
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+}
+
+#bandeau, #navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-attachment: fixed;
+}
+
+#bandeau{
+    background-color: var(--bleu_logo);
+    font-size: 25px;
+}
+
+#nav_bar{
+    background-color: var(--bleu_aca);
+    font-size: 15px;
+}
