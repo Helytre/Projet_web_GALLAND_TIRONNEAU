@@ -1,8 +1,14 @@
+html{
+    font-family: 'Montserrat','Poppins', sans-serif;
+}
+
+
 footer{
     text-align: center;
     padding: 20px;
     max-height: 10%;
     background-color: #0A316C ;
+    font-size: 20px;
 }
 
 footer, .footer-lien{
