@@ -13,6 +13,7 @@ body{
     margin: 0;
     padding: 0;
     background-attachment: fixed;
+    color: var(--bleu_aca);
 }
 
 header{
@@ -36,13 +37,11 @@ a:hover{
 }
 
 h1{
-    color: var(--bleu_aca);
     text-align: center;
     padding: 30px;
 }
 
 h2{
-    color: var(--bleu_aca);
     text-align:left;
     margin-left: 10%;
     padding: 20px;
@@ -50,10 +49,6 @@ h2{
 
 .texte_blanc{
     color: var(--blanc_pur);
-}
-
-.texte_bleu{
-    color: var(--bleu_aca)
 }
 
 .texte{
@@ -68,6 +63,12 @@ h2{
 .texte_citation{
     font-size: 15px;
     font-style: italic;
+}
+
+.box_10{
+    width: 10%;
+    padding: 10px;
+    text-align: center;
 }
 
 .box_15{
@@ -89,6 +90,13 @@ h2{
     justify-content: space-evenly;   
 }
 
+.box_center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .box_start{
     display: flex;
     flex-direction: row;
@@ -102,28 +110,6 @@ h2{
 
 #nav_bar{
     background-color: var(--bleu_aca);
-}
-
-footer{
-    text-align: center;
-    padding: 20px;
-    max-height: 10%;
-    background-color: #0A316C ;
-    font-size: 20px;
-}
-
-.footer-lien:hover{
-    
-    text-decoration: none;
-    background-color: rgb(17, 42, 80);
-}
-
-.footer-list{
-    justify-content: space-between;
-    display: flex;
-    padding-left: 30%;
-    padding-right: 30%;
-    
 }
 
 .img-grande{
