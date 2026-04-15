@@ -6,6 +6,7 @@ html{
     --bleu_logo: rgb(19, 123, 190);
     --cyan_tech: rgb(129,236,236);
     --blanc_pur:rgb(255,255,255);
+    --orange: rgb(245, 155, 25);
 }
 
 body{
@@ -15,14 +16,46 @@ body{
 }
 
 header{
+    max-height: 10%;
     color: var(--blanc_pur);
 }
 
 footer{
-    padding: 20px;
     max-height: 10%;
     background-color: var(--bleu_aca) ;
+    color: var(--blanc_pur);
+}
+
+a{
+    text-decoration-line:none;
+    color:var(--orange);
+}
+
+.texte_blanc{
+    color: var(--blanc_pur);
+}
+
+.texte_bleu{
+    color: var(--bleu_aca)
+}
+
+.texte{
+    font-size: 15px;
+}
+
+.texte_titre{
     font-size: 20px;
+    font-weight: bolder;
+}
+
+.texte_lien{
+    font-size: 15px;
+    color: var(--orange);
+}
+
+.texte_citation{
+    font-size: 15px;
+    font-style: italic;
 }
 
 .box_15{
@@ -53,12 +86,10 @@ footer{
 
 #bandeau{
     background-color: var(--bleu_logo);
-    font-size: 25px;
 }
 
 #nav_bar{
     background-color: var(--bleu_aca);
-    font-size: 15px;
 }
 
 
