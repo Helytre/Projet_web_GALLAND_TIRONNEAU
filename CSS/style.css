@@ -6,7 +6,7 @@ html{
     --bleu_logo: rgb(19, 123, 190);
     --cyan_tech: rgb(129,236,236);
     --blanc_pur:rgb(255,255,255);
-    --orange: rgb(245, 155, 25);
+    --orange: rgb(235, 145, 20);
 }
 
 body{
@@ -31,6 +31,23 @@ a{
     color:var(--orange);
 }
 
+a:hover{
+    color: var(--cyan_tech);
+}
+
+h1{
+    color: var(--bleu_aca);
+    text-align: center;
+    padding: 30px;
+}
+
+h2{
+    color: var(--bleu_aca);
+    text-align:left;
+    margin-left: 10%;
+    padding: 20px;
+}
+
 .texte_blanc{
     color: var(--blanc_pur);
 }
@@ -46,11 +63,6 @@ a{
 .texte_titre{
     font-size: 20px;
     font-weight: bolder;
-}
-
-.texte_lien{
-    font-size: 15px;
-    color: var(--orange);
 }
 
 .texte_citation{
@@ -100,13 +112,8 @@ footer{
     font-size: 20px;
 }
 
-footer, .footer-lien{
-    color: white;
-    text-decoration: none;
-}
-
 .footer-lien:hover{
-    color: var(--cyan_tech);
+    
     text-decoration: none;
     background-color: rgb(17, 42, 80);
 }
@@ -117,14 +124,6 @@ footer, .footer-lien{
     padding-left: 30%;
     padding-right: 30%;
     
-}
-
-.footer-list > li{
-    display: inline-block;
-}
-
-.credits{
-    text-align: center;
 }
 
 .img-grande{
@@ -142,15 +141,3 @@ footer, .footer-lien{
     border-radius: 15px;
 }
 
-h1{
-    color: var(--bleu_aca);
-    text-align: center;
-    padding: 30px;
-}
-
-h2{
-    color: var(--bleu_aca);
-    text-align:left;
-    margin-left: 10%;
-    padding: 20px;
-}
