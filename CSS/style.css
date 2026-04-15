@@ -71,8 +71,14 @@ h2{
     text-align: center;
 }
 
-.box_15{
-    width: 15%;
+.box_25{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.box_45{
+    width: 45%;
     padding: 10px;
     text-align: center;
 }
@@ -81,6 +87,14 @@ h2{
     width: 100%;
     padding: 10px;
     text-align: center;
+}
+
+.box_fixe{
+    flex: none;
+    width: 480px;
+    padding: 10px;
+    text-align: center;
+    scroll-snap-align: center;
 }
 
 .box_spread{
@@ -104,8 +118,17 @@ h2{
     justify-content: flex-start;
 }
 
+.box_overflow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
 #bandeau{
     background-color: var(--bleu_logo);
+    top:;
 }
 
 #nav_bar{
