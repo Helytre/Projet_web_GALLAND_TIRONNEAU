@@ -11,24 +11,44 @@ html{
 body{
     margin: 0;
     padding: 0;
+    background-attachment: fixed;
 }
 
 header{
     color: var(--blanc_pur);
 }
 
-.box_header{
+footer{
+    padding: 20px;
+    max-height: 10%;
+    background-color: var(--bleu_aca) ;
+    font-size: 20px;
+}
+
+.box_15{
     width: 15%;
     padding: 10px;
     text-align: center;
 }
 
-#bandeau, #navbar{
+.box_100{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.box_spread{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+
+.box_start{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    background-attachment: fixed;
 }
 
 #bandeau{
