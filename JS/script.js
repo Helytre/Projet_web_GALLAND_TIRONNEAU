@@ -43,14 +43,19 @@ function prev_scroll(id,id_progress){
 }
 
 function resizing(){
-    const width = window.innerWidth;
+    const width = document.getElementById("carousel_1").offsetWidth;
     const progress_parent = document.getElementById("carousel_1_progress");
-    const progress_child = '<p class="progress"></p>';
-    const n = 4*480/width;
-    for (let i = 0; i < n; i++) {
-        progress_parent.appendChild(progress_child);
+    const n = (5*480)/(width*0.5);
+    var progress_child = document.createElement('p');
+    progress_child.className = "progress";
+    console.log(n, width);
+    var i = 2;
+    while(n>i) {
+        progress_child_n = progress_child.cloneNode(true);
+        progress_parent.appendChild(progress_child_n);
+        i = i + 1;
+        console.log(i);
     }
 }
 
 window.addEventListener("load", resizing);
-window.addEventListener("resize", resizing);
