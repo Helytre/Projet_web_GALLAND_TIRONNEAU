@@ -48,13 +48,11 @@ function resizing(){
     const n = (5*480)/(width*0.5);
     var progress_child = document.createElement('p');
     progress_child.className = "progress";
-    console.log(n, width);
     var i = 2;
     while(n>i) {
         progress_child_n = progress_child.cloneNode(true);
         progress_parent.appendChild(progress_child_n);
         i = i + 1;
-        console.log(i);
     }
 }
 
