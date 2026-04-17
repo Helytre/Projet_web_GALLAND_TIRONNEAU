@@ -63,6 +63,15 @@ h2{
     padding: 20px;
 }
 
+section{
+    border: 1px solid transparent;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transition: all 0.3s ease-in-out;
+}
+
 .texte_blanc{
     color: var(--blanc_pur);
 }
@@ -219,27 +228,23 @@ h2{
     margin-right: 20px;
 }
 
-h1{
-    color: var(--bleu_aca);
-    text-align: center;
-    padding: 30px;
+.contenu{
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    margin-left: 50px;
+    text-align: left;
 }
 
-h2{
-    color: var(--bleu_aca);
-    text-align:left;
-    margin-left: 10%;
-    padding: 20px;
+.min-width-50{
+    min-width: 50%;
 }
 
-
-section{
-    border: 1px solid transparent;
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    transition: all 0.3s ease-in-out;
+.contenu-texte{
+    margin:30px;
+    text-align: justify;
+    max-width: 30%;
 }
 
 @media (max-width: 750px) {
@@ -269,25 +274,6 @@ section{
         transform: scale(1.05,1.05);
         background-color: rgb(250,250,250);
     }
-}
-
-.contenu{
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: all 1s ease-in-out;
-    margin-left: 50px;
-    text-align: left;
-}
-
-.min-width-50{
-    min-width: 50%;
-}
-
-.contenu-texte{
-    margin:30px;
-    text-align: justify;
-    max-width: 30%;
 }
 
 #bandeau{
