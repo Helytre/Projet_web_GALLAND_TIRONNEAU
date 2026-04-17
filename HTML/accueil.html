@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Efrei : Departement informatique - Accueil</title>  
     <link rel= "stylesheet" href="../CSS/style.css">
+    <script src="..//JS/script.js"></script>
 </head>
 <body>
     <header>
@@ -92,7 +93,15 @@
     </section>
     <section>
         <h1>Témoignages</h1>
-        <div class="box_overflow">
+        <div class="box_overflow" id="carousel_1">
+            <div class="box_fixe">
+                <div>
+                    <img src="" alt="img">
+                </div>
+                <div>
+                    <p>Témoignages</p>
+                </div>
+            </div>
             <div class="box_fixe">
                 <div>
                     <img src="" alt="img">
@@ -127,12 +136,12 @@
             </div>
         </div>
         <div class="box_spread">
-            <div class="box_25">
-                <p>progress</p>
+            <div class="box_25 box_center" id="carousel_1_progress">
+                <p class="progress_current"></p>
             </div>
             <div class="box_25">
-                <button type="button" class="previous">icon</button>
-                <button type="button" class="next">icon</button>
+                <button type="button" class="previous" onclick="prev_scroll('carousel_1','carousel_1_progress')">◀</button>
+                <button type="button" class="next" onclick="next_scroll('carousel_1','carousel_1_progress')">▶</button>
             </div>
         </div>
     </section>
