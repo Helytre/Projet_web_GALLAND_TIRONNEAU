@@ -1,0 +1,24 @@
+#calendrier > .jours{
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    padding: 0;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+
+.jours > .jour {
+    box-sizing: border-box;
+    min-height: 50px;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 5px;
+    text-align: center;
+}
+
+.jours{
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    
+}
+

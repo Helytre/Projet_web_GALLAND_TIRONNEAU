@@ -27,7 +27,7 @@ footer{
     color: var(--blanc_pur);
 }
 
-section{
+section{ 
     border: 1px solid transparent;
     margin-left: 8%;
     margin-right: 8%;
