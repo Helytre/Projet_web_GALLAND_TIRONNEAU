@@ -1,3 +1,16 @@
+html{
+    font-family: 'Montserrat','Poppins', sans-serif;
+}
+:root{
+    --bleu_aca: rgb(10, 49, 108);
+    --bleu_logo: rgb(19, 123, 190);
+    --bleu_logo_transparent: rgba(19, 123, 190, 0.5);
+    --cyan_tech: rgb(129,236,236);
+    --blanc_pur:rgb(255,255,255);
+    --orange: rgb(235, 145, 20);
+}
+
+
 #calendrier > .jours{
     display: grid;
     grid-template-columns: repeat(7, minmax(0, 1fr));
@@ -14,6 +27,12 @@
     border-radius: 2px;
     padding: 5px;
     text-align: center;
+}
+
+.jours > .jour > .perm {
+    background-color: var(--bleu_logo_transparent);
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 .jours{
