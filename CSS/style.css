@@ -129,6 +129,13 @@ ul{
     height: 150px;
 }
 
+.box_height_100{
+    height: 100px;
+}
+
+.box_height_50{
+    height: 50px;
+}
 
 .box_fixe{
     flex: none;
@@ -195,9 +202,20 @@ ul{
     background-color: var(--bleu_aca);
 }
 
-.img{
+.center{
+    align-self: center;
+}
+
+.img_radius_10{
     border-radius: 10px;
+}
+
+.img_width_100{
     width: 100%;
+}
+
+.img_height_100{
+    height: 100%;
 }
 
 .img-grande{
