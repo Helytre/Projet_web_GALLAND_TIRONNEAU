@@ -179,6 +179,366 @@
             "salle": "N405",
             "heureDebut": "13h00",
             "heureFin": "15h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 9,
+            "jour": 3,
+            "matiere": "Java",
+            "salle": "H210",
+            "heureDebut": "10h00",
+            "heureFin": "12h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 9,
+            "jour": 5,
+            "matiere": "Python",
+            "salle": "A302",
+            "heureDebut": "14h00",
+            "heureFin": "16h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 9,
+            "jour": 10,
+            "matiere": "Réseaux",
+            "salle": "B006",
+            "heureDebut": "09h30",
+            "heureFin": "11h30"
+        },
+        {
+            "annee": 2025,
+            "mois": 9,
+            "jour": 10,
+            "matiere": "Bases de Données",
+            "salle": "N305",
+            "heureDebut": "13h30",
+            "heureFin": "15h30"
+        },
+        {
+            "annee": 2025,
+            "mois": 9,
+            "jour": 17,
+            "matiere": "Algorithmique et Structures de Données",
+            "salle": "H318",
+            "heureDebut": "14h30",
+            "heureFin": "16h30"
+        },
+        {
+            "annee": 2025,
+            "mois": 10,
+            "jour": 1,
+            "matiere": "Python",
+            "salle": "A105",
+            "heureDebut": "10h00",
+            "heureFin": "12h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 10,
+            "jour": 6,
+            "matiere": "Java",
+            "salle": "N204",
+            "heureDebut": "13h00",
+            "heureFin": "15h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 10,
+            "jour": 8,
+            "matiere": "Réseaux",
+            "salle": "B103",
+            "heureDebut": "09h00",
+            "heureFin": "11h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 10,
+            "jour": 8,
+            "matiere": "Algorithmique et Structures de Données",
+            "salle": "H215",
+            "heureDebut": "14h00",
+            "heureFin": "16h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 10,
+            "jour": 15,
+            "matiere": "Bases de Données",
+            "salle": "A408",
+            "heureDebut": "10h30",
+            "heureFin": "12h30"
+        },
+        {
+            "annee": 2025,
+            "mois": 11,
+            "jour": 4,
+            "matiere": "Java",
+            "salle": "H412",
+            "heureDebut": "09h30",
+            "heureFin": "11h30"
+        },
+        {
+            "annee": 2025,
+            "mois": 11,
+            "jour": 6,
+            "matiere": "Python",
+            "salle": "N108",
+            "heureDebut": "14h00",
+            "heureFin": "16h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 11,
+            "jour": 12,
+            "matiere": "Bases de Données",
+            "salle": "B007",
+            "heureDebut": "10h00",
+            "heureFin": "12h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 11,
+            "jour": 12,
+            "matiere": "Réseaux",
+            "salle": "A203",
+            "heureDebut": "13h30",
+            "heureFin": "15h30"
+        },
+        {
+            "annee": 2025,
+            "mois": 11,
+            "jour": 19,
+            "matiere": "Algorithmique et Structures de Données",
+            "salle": "H317",
+            "heureDebut": "14h30",
+            "heureFin": "16h30"
+        },
+        {
+            "annee": 2025,
+            "mois": 12,
+            "jour": 2,
+            "matiere": "Java",
+            "salle": "A006",
+            "heureDebut": "10h00",
+            "heureFin": "12h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 12,
+            "jour": 5,
+            "matiere": "Python",
+            "salle": "H301",
+            "heureDebut": "13h00",
+            "heureFin": "15h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 12,
+            "jour": 9,
+            "matiere": "Réseaux",
+            "salle": "N312",
+            "heureDebut": "09h00",
+            "heureFin": "11h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 12,
+            "jour": 9,
+            "matiere": "Bases de Données",
+            "salle": "B109",
+            "heureDebut": "14h00",
+            "heureFin": "16h00"
+        },
+        {
+            "annee": 2025,
+            "mois": 12,
+            "jour": 12,
+            "matiere": "Algorithmique et Structures de Données",
+            "salle": "A401",
+            "heureDebut": "10h30",
+            "heureFin": "12h30"
+        },
+        {
+            "annee": 2026,
+            "mois": 1,
+            "jour": 7,
+            "matiere": "Java",
+            "salle": "H218",
+            "heureDebut": "09h30",
+            "heureFin": "11h30"
+        },
+        {
+            "annee": 2026,
+            "mois": 1,
+            "jour": 9,
+            "matiere": "Python",
+            "salle": "B005",
+            "heureDebut": "14h00",
+            "heureFin": "16h00"
+        },
+        {
+            "annee": 2026,
+            "mois": 1,
+            "jour": 14,
+            "matiere": "Algorithmique et Structures de Données",
+            "salle": "N401",
+            "heureDebut": "10h00",
+            "heureFin": "12h00"
+        },
+        {
+            "annee": 2026,
+            "mois": 1,
+            "jour": 14,
+            "matiere": "Réseaux",
+            "salle": "A304",
+            "heureDebut": "13h30",
+            "heureFin": "15h30"
+        },
+        {
+            "annee": 2026,
+            "mois": 1,
+            "jour": 21,
+            "matiere": "Bases de Données",
+            "salle": "H115",
+            "heureDebut": "14h30",
+            "heureFin": "16h30"
+        },
+        {
+            "annee": 2026,
+            "mois": 2,
+            "jour": 4,
+            "matiere": "Java",
+            "salle": "N205",
+            "heureDebut": "10h00",
+            "heureFin": "12h00"
+        },
+        {
+            "annee": 2026,
+            "mois": 2,
+            "jour": 6,
+            "matiere": "Python",
+            "salle": "A207",
+            "heureDebut": "13h30",
+            "heureFin": "15h30"
+        },
+        {
+            "annee": 2026,
+            "mois": 2,
+            "jour": 11,
+            "matiere": "Réseaux",
+            "salle": "H414",
+            "heureDebut": "09h00",
+            "heureFin": "11h00"
+        },
+        {
+            "annee": 2026,
+            "mois": 2,
+            "jour": 11,
+            "matiere": "Bases de Données",
+            "salle": "B110",
+            "heureDebut": "14h00",
+            "heureFin": "16h00"
+        },
+        {
+            "annee": 2026,
+            "mois": 2,
+            "jour": 18,
+            "matiere": "Algorithmique et Structures de Données",
+            "salle": "N308",
+            "heureDebut": "10h30",
+            "heureFin": "12h30"
+        },
+        {
+            "annee": 2026,
+            "mois": 3,
+            "jour": 4,
+            "matiere": "Java",
+            "salle": "A009",
+            "heureDebut": "09h30",
+            "heureFin": "11h30"
+        },
+        {
+            "annee": 2026,
+            "mois": 3,
+            "jour": 6,
+            "matiere": "Python",
+            "salle": "H312",
+            "heureDebut": "14h00",
+            "heureFin": "16h00"
+        },
+        {
+            "annee": 2026,
+            "mois": 3,
+            "jour": 11,
+            "matiere": "Algorithmique et Structures de Données",
+            "salle": "B008",
+            "heureDebut": "10h00",
+            "heureFin": "12h00"
+        },
+        {
+            "annee": 2026,
+            "mois": 3,
+            "jour": 11,
+            "matiere": "Réseaux",
+            "salle": "N106",
+            "heureDebut": "13h30",
+            "heureFin": "15h30"
+        },
+        {
+            "annee": 2026,
+            "mois": 3,
+            "jour": 18,
+            "matiere": "Bases de Données",
+            "salle": "A402",
+            "heureDebut": "14h30",
+            "heureFin": "16h30"
+        },
+        {
+            "annee": 2026,
+            "mois": 4,
+            "jour": 2,
+            "matiere": "Java",
+            "salle": "H219",
+            "heureDebut": "10h00",
+            "heureFin": "12h00"
+        },
+        {
+            "annee": 2026,
+            "mois": 4,
+            "jour": 7,
+            "matiere": "Python",
+            "salle": "N303",
+            "heureDebut": "13h00",
+            "heureFin": "15h00"
+        },
+        {
+            "annee": 2026,
+            "mois": 4,
+            "jour": 9,
+            "matiere": "Réseaux",
+            "salle": "B004",
+            "heureDebut": "09h00",
+            "heureFin": "11h00"
+        },
+        {
+            "annee": 2026,
+            "mois": 4,
+            "jour": 9,
+            "matiere": "Algorithmique et Structures de Données",
+            "salle": "A106",
+            "heureDebut": "14h00",
+            "heureFin": "16h00"
+        },
+        {
+            "annee": 2026,
+            "mois": 4,
+            "jour": 14,
+            "matiere": "Bases de Données",
+            "salle": "H416",
+            "heureDebut": "10h30",
+            "heureFin": "12h30"
         }
     ]
 }
