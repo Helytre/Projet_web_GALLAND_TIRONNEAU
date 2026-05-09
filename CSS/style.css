@@ -217,7 +217,8 @@ ul{
 }
 
 .center{
-    align-self: center;
+    align-items: center;
+    align-content: center;
 }
 
 .img_radius_10{
