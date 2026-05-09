@@ -394,3 +394,80 @@ ul{
     margin-right: 10%;
     text-align: justify;
 }
+
+.texte_vraiment_tres_grand{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    min-height: 77vh; /* Pour correspondre approximativement à la hauteur de l'écran */
+    display: flex;
+    align-items: center;
+}
+
+#form_infos, #form_question{
+    border: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+form{
+    font-size: 18px;
+}
+
+fieldset > *{
+    margin-left: 30px;
+}
+
+legend{
+    padding-bottom: 15px;
+}
+
+fieldset{
+    border: 1px solid var(--bleu_aca)
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="submit"] select{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid var(--bleu_aca);
+    border-radius: 5px;
+}
+
+input[type="date"]{
+    padding:15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px solid var(--bleu_aca);
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: var(--bleu_aca);
+    color: var(--blanc_pur);
+    border: none;
+    margin: 50px;
+    margin-left: 50%;
+    font-size: 22px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#question{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid var(--bleu_aca);
+    border-radius: 5px;
+    field-sizing: content;
+    min-height: 60px;
+    min-width: 300px;
+}

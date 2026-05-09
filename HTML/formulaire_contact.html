@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efrei : Departement informatique - Formulaire de contact</title>  
+    <link rel= "stylesheet" href="../CSS/style.css">
+    <script src="..//JS/script.js"></script>
+</head>
+<body>
+     <header>
+        <div id="bandeau" class="box_start texte_titre">
+            <div class="box_10">
+                <img src="../DATA/img/Logo-Efrei-Blanc.png"  alt="Logo-Efrei-Blanc" class="img_width_100">
+            </div>
+            <div class="box_10">
+                <a href="accueil.html" class="texte_blanc">Accueil</a>
+            </div>
+        </div>
+        <div id="nav_bar" class="texte box_center">
+            <div class="box_10">
+                <a class="texte_blanc" href="programmes.html">Programmes</a>
+            </div>
+            <div class="box_10">
+                <a class="texte_blanc" href="equipe.html">Equipe</a>
+            </div>
+            <div class="box_10">
+                <a class="texte_blanc" href="permanences.html">Permanences</a>
+            </div>
+            <div class="box_10">
+                <a class="texte_blanc" href="vie_etudiante.html">Vie étudiante</a>
+            </div>
+            <div class="box_10">
+                <a class="texte_blanc" href="partenariats.html">Partenariats</a>
+            </div>
+            <div class="box_10">
+                <a class="texte_blanc" href="contacts.html">Contacts</a>
+            </div>
+            <div class="box_10">
+                <a class="texte_blanc" href="a_propos">A propos</a>
+            </div>
+        </div>
+    </header>
+
+    <h1>Formulaire de cotnact</h1>
+    <h2>Veuillez remplir l'ensemble des informations afin d'être contacté par nos équipes</h2>
+    <form method="post" name="formulaire" action="#" id="formulaire_contact" onsubmit="return false">
+        <fieldset id="form_infos">
+            <legend>Informations personelles</legend>
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom"><br>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom"><br>
+
+            <label for="date_naissance">Date de naissance :</label>
+            <input type="date" id="date_naissance"><br>
+
+            <label for="num_tel">Numéro de téléphone :</label>
+            <input type="tel" id="num_tel"><br>
+
+            <label for="email">E-mail :</label>
+            <input type="email" id="email"><br>
+
+            <label for="type_personne">Vous êtes:</label>
+            <select name="type" id="type_personne">
+                <option value="non rempli">Veuillez choisir une option</option>
+                <option value="Lycéen">Lycéen</option>
+                <option value="Enseignement supérieur">Etudiant dans l'enseignement supérieur</option>
+                <option value="Parent">Parent</option>
+            </select>
+        </fieldset>
+        <fieldset id="form_question">
+            <label for="question">Veuillez entrer votre question</label><br>
+            <textarea id="question"></textarea> <br>
+
+            <label for="cgu">Vous acceptez les conditions générales du site</label>
+            <input type="checkbox" id="cgu">
+
+        </fieldset>
+         <input type="submit" id="envoyerQuiz" value="Envoyer" class="quiz" onclick="envoyer()">
+    </form>
+
+    <footer class="texte">
+        <div class="box_spread">
+            <div class="box_10 box_height_100">
+                <p id="credits">©Matthieu Tironneau, Matthieu Galland, 2026</p>
+            </div>
+            <div class="box_10 box_height_50">
+                <a href="https://www.cti-commission.fr/">
+                    <img src="../DATA/img/CTI_Logo.svg" alt="Logo CTI" class="img_height_100">
+                </a>
+            </div>
+            <div class="box_10 box_height_50">
+                <a href="https://www.cge.asso.fr/">
+                    <img src="../DATA/img/LOGO_CGE.svg" alt="Logo CTI" class="img_height_100">
+                </a>
+            </div>
+            <div class="box_10 box_height_50">
+                <a href="https://www.enseignementsup-recherche.gouv.fr/fr/la-qualification-d-etablissement-d-enseignement-superieur-prive-d-interet-general-eespig-46277">
+                    <img src="../DATA/img/logo-eespig.png" alt="Logo CTI" class="img_height_100">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="../JS/form.js"></script>
+</body>
+</html>
