@@ -28,6 +28,12 @@ footer{
 }
 
 section{ 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.section_hover{
+    padding: 0%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -94,6 +100,14 @@ ul{
     text-align: left;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.back_img{
+    color: var(--blanc_pur);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../DATA/img/illus.jpg");
 }
 
 .box_10{
@@ -209,7 +223,8 @@ ul{
 }
 
 .center{
-    align-self: center;
+    align-items: center;
+    align-content: center;
 }
 
 .img_radius_10{
