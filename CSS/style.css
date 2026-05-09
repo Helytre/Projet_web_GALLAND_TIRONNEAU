@@ -94,6 +94,12 @@ ul{
     font-style: italic;
 }
 
+.texte_citation_grand{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
 .texte_aligne{
     font-size: 15px;
     justify-content:flex-start;
@@ -367,4 +373,20 @@ ul{
 
 #nav_bar{
     background-color: var(--bleu_aca);
+}
+
+.liste-contact{
+    list-style:circle;
+}
+.liste-contact > li{
+    margin-left: 100px;
+}
+.liste-contact > li > p{
+    margin-left: 15px;
+}
+
+#FAQ{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
 }
