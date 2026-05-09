@@ -32,6 +32,12 @@ section{
     margin-right: 5%;
 }
 
+.section_hover{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
 .section_hover:hover{
     transition: all 0.3s ease-in-out;
     border: 1px solid var(--bleu_logo);
@@ -245,7 +251,7 @@ ul{
     min-width: 10%;
 }
 
-.img-petite > img, .img-profil>img{
+.img-petite > img, .img-profil>img, .img-presentation>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -260,11 +266,36 @@ ul{
     width: 250px;
     height: auto;
     max-width: 300px;
-    margin: 20px auto;
+    margin: 20px;
 }
 .texte-profil{
     width: 40%;
     margin-right: 20px;
+}
+
+.img-presentation{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transform: scale(1,1);
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.img-presentation:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#presentation-equipe{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 150px;
+    text-align: justify;
 }
 
 .contenu{

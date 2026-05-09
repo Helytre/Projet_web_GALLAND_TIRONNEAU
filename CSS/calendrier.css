@@ -19,6 +19,36 @@ html{
     list-style-type: none;
 }
 
+@media (max-width: 800px) {
+    #calendrier > .jours{
+        display: grid;
+
+        padding: 0;
+        margin-bottom: 10px;
+        list-style-type: none;
+    }
+    #calendrier > .jours > .jour {
+        box-sizing: border-box;
+        border: 1px solid;
+        border-radius: 2px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #calendrier_total{
+        width:100vw;
+        overflow-x: scroll;
+        
+    }
+    #calendrier, #contenu_calendier{
+        min-width: 800px
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}
+
 
 .jours > .jour {
     box-sizing: border-box;
