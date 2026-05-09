@@ -3,6 +3,7 @@ html{
 }
 :root{
     --bleu_aca: rgb(10, 49, 108);
+    --bleu_aca_transparent: rgba(10, 49, 108, 0.4);
     --bleu_logo: rgb(19, 123, 190);
     --cyan_tech: rgb(129,236,236);
     --blanc_pur:rgb(255,255,255);
@@ -32,16 +33,15 @@ section{
     padding-right: 5%;
 }
 
-.section_hover{
-    padding: 0%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
 
 .section_hover{
+        padding: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
     border: 1px solid transparent;
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .section_hover:hover{
@@ -361,7 +361,7 @@ ul{
     }
 }
 
-@media (min-width: 751px) {
+@media (min-width: 750px) {
     .section_hover:hover{
         transition: all 0.3s ease-in-out;
         border: 1px solid var(--bleu_logo);
@@ -379,11 +379,23 @@ ul{
     background-color: var(--bleu_aca);
 }
 
-.liste-contact{
-    list-style:circle;
+.liste-contact >.box_45{
+    border: 0px solid transparent;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+
 }
-.liste-contact > li{
-    margin-left: 100px;
+
+.liste-contact > .box_45:hover{
+    border: 1px solid var(--bleu_logo);
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px var(--bleu_aca_transparent);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(250,250,250);
+}
+
+
+    
 }
 .liste-contact > li > p{
     margin-left: 15px;
