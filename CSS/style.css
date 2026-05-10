@@ -232,6 +232,14 @@ ul{
     height: 260px;
 }
 
+.link{
+    border-radius: 10px;
+    background-color: var(--bleu_aca);
+    height: 40px;
+    margin: 10px;
+}
+
+
 .center{
     align-items: center;
     align-content: center;
