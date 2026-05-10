@@ -419,6 +419,10 @@ ul{
     background-color: var(--bleu_aca);
 }
 
+.liste-contact{
+    margin-left: 10%;
+}
+
 .liste-contact >.box_45{
     border: 0px solid transparent;
     border-radius: 30px;
@@ -436,7 +440,7 @@ ul{
 
 
     
-}
+
 .liste-contact > li > p{
     margin-left: 15px;
 }
@@ -522,4 +526,18 @@ input[type="submit"]{
     field-sizing: content;
     min-height: 60px;
     min-width: 300px;
+}
+
+.liste_entreprises{
+    font-size: 20px;
+}
+
+.liste_entreprises > .box_10{
+    border: 1px solid;
+    border-radius: 15px;
+    height: 40px;
+    padding: 20px;
+    background-color: var(--bleu_aca);
+    color: var(--blanc_pur);
+
 }
