@@ -158,6 +158,10 @@ ul{
     justify-items: center;
 }
 
+.box_height_350{
+    height: 350px;
+}
+
 .box_height_150{
     height: 150px;
 }
@@ -235,10 +239,6 @@ ul{
     background-color: var(--bleu_aca);
 }
 
-.box_height_260{
-    height: 260px;
-}
-
 .link{
     border-radius: 10px;
     background-color: var(--bleu_aca);
@@ -251,6 +251,12 @@ ul{
     align-items: center;
     align-content: center;
     text-align: center;
+}
+
+.img_fit{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .img_radius_10{
