@@ -108,6 +108,13 @@ ul{
     padding-right: 20%;
 }
 
+.texte_aligne_2{
+    font-size: 15px;
+    justify-content:flex-start;
+    text-align: justify;
+    padding: 10px;
+}
+
 .back_img{
     color: var(--blanc_pur);
     background-repeat: no-repeat;
@@ -243,6 +250,7 @@ ul{
 .center{
     align-items: center;
     align-content: center;
+    text-align: center;
 }
 
 .img_radius_10{
