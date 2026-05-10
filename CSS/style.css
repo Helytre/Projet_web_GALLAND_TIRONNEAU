@@ -331,6 +331,12 @@ ul{
     text-align: justify;
 }
 
+.reverse{
+    background-color: var(--bleu_aca);
+    border-radius: 10px;
+    color: var(--blanc_pur);
+}
+
 .contenu{
     max-height: 0;
     overflow: hidden;
@@ -338,6 +344,18 @@ ul{
     transition: all 1s ease-in-out;
     margin-left: 50px;
     text-align: left;
+}
+
+.sous_contenu{
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.hover{
+    cursor:pointer ;
 }
 
 .min-width-50{

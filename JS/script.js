@@ -14,6 +14,20 @@ function afficherCategorie(id) {
     }
 }
 
+function afficherSousCategorie(id){
+    var element = document.getElementById(id);
+    var contenu = element.nextElementSibling;
+    if (contenu.style.opacity==="0" || contenu.style.opacity==="") {
+        contenu.style.maxHeight = "5000px";
+        contenu.style.opacity = "1";
+        element.innerHTML = element.innerHTML.replace("▼", "▲");
+    }else {
+        contenu.style.maxHeight = "0";
+        contenu.style.opacity = "0";
+        element.innerHTML = element.innerHTML.replace("▲", "▼");
+    }
+}
+
 function next_scroll(id,id_progress){
     const element = document.getElementById(id);
     const scrolling = element.offsetWidth*0.5;
