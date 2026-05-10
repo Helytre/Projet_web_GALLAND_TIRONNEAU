@@ -56,7 +56,7 @@ function prev_scroll(id,id_progress){
     }
 }
 
-function resizing(){
+function resizing_1(){
     const width = document.getElementById("carousel_1").offsetWidth;
     const progress_parent = document.getElementById("carousel_1_progress");
     const n = (5*480)/(width*0.5);
@@ -70,4 +70,19 @@ function resizing(){
     }
 }
 
-window.addEventListener("load", resizing);
+function resizing_2(){
+    const width = document.getElementById("carousel_2").offsetWidth;
+    const progress_parent = document.getElementById("carousel_2_progress");
+    const n = (4*480)/(width*0.5);
+    var progress_child = document.createElement('p');
+    progress_child.className = "progress";
+    var i = 2;
+    while(n>i) {
+        progress_child_n = progress_child.cloneNode(true);
+        progress_parent.appendChild(progress_child_n);
+        i = i + 1;
+    }
+}
+
+window.addEventListener("load", resizing_1);
+window.addEventListener("load", resizing_2);
